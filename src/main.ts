@@ -1,4 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+// import from Vue.js
+import { createApp } from "vue"
 
-createApp(App).mount('#app')
+// import Element Plus
+import ElementPlus from "element-plus"
+import "element-plus/dist/index.css"
+
+// import app component
+import App from "@/App.vue"
+
+createApp(App).use(ElementPlus).mount("#app")
